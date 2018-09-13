@@ -1,0 +1,40 @@
+{
+  "name": "bitbucket-auth-require",
+  "version": "1.0.0",
+  "description": "An extension of bitbucket-auth library",
+  "engines": {
+    "node": ">=6.0.0"
+  },
+  "main": "./dist/index.js",
+  "scripts": {
+    "build": "babel index.js --out-dir dist",
+    "prepublish": "npm run build",
+    "dev": "babel-node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eshugoel24/bitbucket-auth-require.git"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.18.0",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-register": "^6.18.0",
+    "body-parser": "^1.15.2"
+  },
+  "dependencies": {
+    "bitbucket-auth": "^0.5.3"
+  },
+  "keywords": [
+    "bitbucket-auth",
+    "bitbucket",
+    "auth",
+    "auth0",
+    "es6"
+  ],
+  "author": "Eshu Goel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eshugoel24/bitbucket-auth-require/issues"
+  },
+  "homepage": "https://github.com/eshugoel24/bitbucket-auth-require#readme"
+}
